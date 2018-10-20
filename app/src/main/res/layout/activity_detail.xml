@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mydomain.app.week9.activity.DetailActivity">
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnUpdateContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Contact"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnDeleteContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Contact"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+</LinearLayout>
